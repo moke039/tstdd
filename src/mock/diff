@@ -1,0 +1,7 @@
+diff -u __test__/MockSpy __test__/MockSpyDefault/
+diff -u __test__/MockStub __test__/MockStubDefault/
+diff -u __test__/MockSpy __test__/MockStub/
+diff -u __test__/MockSpyDefault __test__/MockStubDefault/
+diff -u __test__/MockSpyDefault __test__/MockSpyStubDefault/
+diff -u __test__/MockSpyStubDefault/doubleSquareJspy.test.ts __test__/MockSpyStubDefault/doubleSquareJspyReset.test.ts
+# 結論： 外部ライブラリには mock で stub を作るのがおすすめ。それ以外は spyOn がおすすめ。
