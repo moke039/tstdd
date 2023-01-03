@@ -28,6 +28,6 @@ https://qiita.com/s_karuta/items/ee211251d944e72b2517
 ---
 
 環境構築完了版  
-git clone https://github.com/moke039/tstdd.git -b v0.0.1
+git clone https://github.com/moke039/tstdd.git -b v0.0.1  
 FizzBuzz 完了版  
 git clone https://github.com/moke039/tstdd.git -b v0.1.0
