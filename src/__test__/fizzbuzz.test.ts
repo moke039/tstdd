@@ -17,4 +17,12 @@ describe("FizzBuzz", () => {
       expect(fizzbuzz(6)).toBe("Fizz");
     });
   });
+  describe("5の倍数の数字を与えると文字列'Buzz'を返す", () => {
+    it("5を与えると'Buzz'を返す", () => {
+      expect(fizzbuzz(5)).toBe("Buzz");
+    });
+    it("10を与えると'Buzz'を返す", () => {
+      expect(fizzbuzz(10)).toBe("Buzz");
+    });
+  });
 });
