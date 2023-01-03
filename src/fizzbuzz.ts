@@ -1,3 +1,4 @@
 export default function fizzbuzz(num: number): string {
-  return num.toString();
+  if (num % 3 === 0) return "Fizz";
+  else return num.toString();
 }
