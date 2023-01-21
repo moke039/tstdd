@@ -7,7 +7,8 @@
     "start": "npm run build:live",
     "build": "tsc -p .",
     "build:live": "nodemon --watch 'src/**/*.ts' --exec \"ts-node\" src/index.ts",
-    "test": "jest"
+    "test": "jest",
+    "cov": "npm run test -- --coverage --watchAll=false"
   },
   "keywords": [],
   "author": "",

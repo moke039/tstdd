@@ -17,7 +17,12 @@ https://jestjs.io/docs/getting-started#using-typescript
 
 ---
 
-npm test -- --coverage も見てみる。
+```
+npm test -- --coverage --watchAll=false
+```
+
+も見てみる。watch を無効化しないとカバレッジ結果出力中に  
+テストが走り出して結果が消えてしまう様子。
 
 ---
 
@@ -31,3 +36,6 @@ https://qiita.com/s_karuta/items/ee211251d944e72b2517
 git clone https://github.com/moke039/tstdd.git -b v0.0.1  
 FizzBuzz 完了版  
 git clone https://github.com/moke039/tstdd.git -b v0.1.0
+
+vs code がちょっと不安定になることもある。
+ctrl(cmd)+shift+p -> reload Window がおすすめ。
